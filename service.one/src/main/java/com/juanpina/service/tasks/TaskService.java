@@ -1,10 +1,11 @@
 package com.juanpina.service.tasks;
 
-import org.springframework.scheduling.config.Task;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+@Service
 public class TaskService {
 
     private final TasksRepository tasksRepository;
